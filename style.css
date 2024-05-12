@@ -17,7 +17,7 @@ img {
 }
 
 a {
-  color: #fff;
+  color: hsl(0, 0%, 90%);
   text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ a {
 
 body {
   font-family: "Cairo", sans-serif;
-  color: #3a3a3a;
+  color: hsl(0, 0%, 15%);
 }
 
 h1,
@@ -91,7 +91,7 @@ p {
 /* -------------header-------------------
 ---------------------------------------*/
 header {
-  background-color: #f3c242;
+  background-color: hsl(43, 88%, 61%);
 }
 header .container .hero {
   display: flex;
@@ -114,26 +114,26 @@ header .container .hero .tekst {
   }
 }
 header .container .hero .tekst ul li:first-child a {
-  background-color: #3a3a3a;
-  color: #fff;
+  background-color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 90%);
 }
 header .container .hero .tekst ul li:first-child a:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: hsl(0, 0%, 10%);
+  color: hsl(0, 0%, 90%);
 }
 header .container .hero .tekst ul li:last-child a {
-  background-color: #fff;
-  color: #3a3a3a;
+  background-color: hsl(0, 0%, 90%);
+  color: hsl(0, 0%, 15%);
 }
 header .container .hero .tekst ul li:last-child a:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: hsl(0, 0%, 10%);
+  color: hsl(0, 0%, 90%);
 }
 
 /* -------------about--------------------
 ---------------------------------------*/
 .about {
-  background-color: rgba(149, 149, 149, 0.0901960784);
+  background-color: hsla(0, 0%, 58%, 0.09);
 }
 .about .container article {
   display: flex;
@@ -149,7 +149,7 @@ header .container .hero .tekst ul li:last-child a:hover {
   flex: 0 0 50%;
 }
 .about .container article .slika img {
-  box-shadow: 2rem 2rem #f3c242;
+  box-shadow: 2rem 2rem hsl(43, 88%, 61%);
 }
 .about .container article .tekst {
   flex: 0 0 50%;
@@ -197,7 +197,7 @@ header .container .hero .tekst ul li:last-child a:hover {
   }
 }
 .discover .container .discoverDetail .dicoverDetailText {
-  background-color: rgba(149, 149, 149, 0.0901960784);
+  background-color: hsla(0, 0%, 58%, 0.09);
   flex: 0 0 50%;
   padding: 4.5rem;
 }
@@ -208,7 +208,7 @@ header .container .hero .tekst ul li:last-child a:hover {
 }
 .discover .container .discoverDetail .dicoverDetailText h4 {
   font-size: 3rem;
-  color: #f3c242;
+  color: hsl(43, 88%, 61%);
   text-align: left;
   margin-top: 30px;
 }
@@ -230,7 +230,7 @@ header .container .hero .tekst ul li:last-child a:hover {
   }
 }
 .discover .discoverDetail:last-child .dicoverDetailText h4 {
-  color: #3a3a3a;
+  color: hsl(0, 0%, 15%);
 }
 
 /* -------------features-----------------
@@ -328,12 +328,12 @@ header .container .hero .tekst ul li:last-child a:hover {
   flex: 0 0 50%;
 }
 .choose .container .chooseDetail a {
-  background-color: #f3c242;
-  color: #3a3a3a;
+  background-color: hsl(43, 88%, 61%);
+  color: hsl(0, 0%, 15%);
 }
 .choose .container .chooseDetail a:hover {
   background-color: orange;
-  color: #3a3a3a;
+  color: hsl(0, 0%, 15%);
 }
 
 /* -------------process-----------------
@@ -349,14 +349,14 @@ header .container .hero .tekst ul li:last-child a:hover {
   text-align: center;
 }
 .process .container a {
-  background-color: #f3c242;
-  color: #3a3a3a;
+  background-color: hsl(43, 88%, 61%);
+  color: hsl(0, 0%, 15%);
   padding: 1rem 1.75rem;
   border-radius: 50%;
 }
 .process .container a:hover {
   background-color: orange;
-  color: #3a3a3a;
+  color: hsl(0, 0%, 15%);
 }
 
 /* -------------follow------------------
@@ -371,13 +371,13 @@ header .container .hero .tekst ul li:last-child a:hover {
   margin-bottom: 30px;
 }
 .follow .container .followNaslov a {
-  background-color: #f3c242;
-  color: #3a3a3a;
+  background-color: hsl(43, 88%, 61%);
+  color: hsl(0, 0%, 15%);
   padding: 10px 20px;
 }
 .follow .container .followNaslov a:hover {
   background-color: orange;
-  color: #3a3a3a;
+  color: hsl(0, 0%, 15%);
 }
 .follow .container .followSlike {
   display: flex;
@@ -412,32 +412,32 @@ footer {
   }
 }
 footer .footerLevi {
-  color: #fff;
+  color: hsl(0, 0%, 90%);
   text-align: center;
   padding: 100px 100px;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/beer-party.jpg");
   background-size: cover;
 }
 footer .footerLevi a {
-  background-color: #f3c242;
-  color: #3a3a3a;
+  background-color: hsl(43, 88%, 61%);
+  color: hsl(0, 0%, 15%);
 }
 footer .footerLevi a:hover {
   background-color: orange;
-  color: #3a3a3a;
+  color: hsl(0, 0%, 15%);
 }
 footer .footerDesni {
-  color: #fff;
+  color: hsl(0, 0%, 90%);
   text-align: center;
   padding: 100px 100px;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/bar-restock.jpg");
   background-size: cover;
 }
 footer .footerDesni a {
-  background-color: #f3c242;
-  color: #3a3a3a;
+  background-color: hsl(43, 88%, 61%);
+  color: hsl(0, 0%, 15%);
 }
 footer .footerDesni a:hover {
   background-color: orange;
-  color: #3a3a3a;
+  color: hsl(0, 0%, 15%);
 }/*# sourceMappingURL=style.css.map */
